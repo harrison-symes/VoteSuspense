@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarn test reducer
+  /usr/bin/node /usr/bin/yarn
 
 PATH: 
   /home/symeshjb/bin:/home/symeshjb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -7556,10 +7556,10 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 1
+  Exit code: 2
   Command: sh
-  Arguments: -c jest reducer
-  Directory: /home/symeshjb/workspace/ruru/react-redux
+  Arguments: -c webpack
+  Directory: /home/symeshjb/workspace/ruru/revealIntentions
   Output:
   
       at ProcessTermError.MessageError (/usr/lib/node_modules/yarn/lib/cli.js:186:110)
